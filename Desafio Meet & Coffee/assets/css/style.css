@@ -1,0 +1,211 @@
+body {
+	text-align:center;
+	color: #000f08;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body *{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+.oscuro {
+	background: #000f08;
+	color: #ffffff;
+
+}
+
+.oscuro a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.sweet-brown {
+	background: #A4452C;
+	text-align: left;
+	color: #ffffff;
+	padding:50px;
+	white-space: nowrap;
+}
+
+.hero-section{
+	text-align: right;
+	background-image: url('../img/bg-hero.png'); 
+	background-size: cover;
+	color: #ffffff;
+	background-repeat: no-repeat;
+	text-shadow: 0.125em 0.25em 0.125em #707070; /* Esta línea la pasamos a em */
+	padding: 6.25rem 3.125rem 6.25rem 3.125rem;
+	border:50px;
+	margin: 50px;
+
+}
+
+section, footer{
+	margin-top: 75px;
+}
+
+.charla-speaker {
+	display: inline-block;
+	width: 25%;
+	vertical-align: middle;
+
+}
+
+.charla-texto {
+	display: inline-block;
+	width: 72.5%;
+	vertical-align: middle;
+	margin-left: 2.5%;
+	white-space: nowrap;
+
+}
+
+article {
+	display: inline-block;
+}
+
+.centrado{
+	width: 75%;
+	margin: 0 auto;
+}
+
+
+.evento {
+	width:30%;
+	white-space: nowrap;
+}
+
+.evento img {
+	width:70%;
+}
+
+
+
+h1{
+	font-weight: 800;
+	font-size: 3.75em;
+	margin-bottom: 0.25em;
+}
+
+h2{
+	font-weight: 700;
+	font-size: 2.5em;
+}
+
+h3{
+	font-size: 2em;
+}
+
+h4{
+	font-size: 1.75em;
+}
+
+h5{
+	font-size: 1.25em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.subtitulo{
+	font-weight: 400;
+}
+
+.subtitulo, h4, h5 {
+	font-weight: 400;
+}
+
+#ubicacion h2 {
+margin: 1em auto;
+}
+
+.sweet-brown h3, .sweet-brown h5 {
+	margin-bottom: 0.5em; /* Aquí se puede ver el ejemplo claro de cómo los em están condicionados por
+el elemento padre */
+}
+#eventos h2 {
+	margin-bottom: 1em;
+}
+#eventos h3 {
+	margin: 1em auto;
+}
+
+nav{
+	text-align: left;
+	padding: 1.25rem 4rem;
+	position: fixed;
+	top:0;
+	width: 100vw;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 1em;
+}
+
+footer i{
+	margin: 0 0.25em 0.5em 0.25em;
+	margin-top: 75px;
+}
+
+footer p{
+	text-align: center;
+	padding-bottom: 33px;
+
+}
+
+.icono {
+width: 2rem;
+}
+
+.icono svg {
+	fill: #ffffff;
+}
+
+.post-centrado{
+	width: 50%;
+	margin: 10% auto;
+	display: block;
+}
+
+h2.titulo-post{
+
+	text-align: left;
+	letter-spacing: 0px;
+	color: #000F08;
+	opacity: 1;
+	margin: 96px 0 72px  0;
+
+}
+.post-centrado img{
+	border-radius: 5px;
+	max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 0 72px 0;
+    letter-spacing: 0.5px;
+}
+
+p{
+	text-align: center;
+}
+
+.texto-post p{
+	margin:0 0 20px 0;
+	text-align: left;
+}
+
+h3.subtitulo-post{
+
+	text-align: left;
+	letter-spacing: 0px;
+	color: #000F08;
+	opacity: 1;
+	margin: 15px 0 48px  0;
+}
